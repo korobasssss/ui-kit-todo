@@ -7,7 +7,7 @@
       "@/*": ["./src/*"]
     },
     "module": "ESNext",
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "types": ["node"],
 
     /* Bundler mode */
