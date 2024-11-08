@@ -19,9 +19,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/lib/index.ts"),
-      name: "ReactTSLib",
+      name: "ui-kit-todo",
       formats: ["es", "umd"],
-      fileName: (format) => `react-ts-lib.${format}.js`,
+      fileName: (format) => `ui-kit-todo.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom", "classnames"],
