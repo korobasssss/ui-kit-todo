@@ -20,13 +20,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/react-ts-lib.umd.js",
-  "module": "./dist/react-ts-lib.es.js",
+  "main": "./dist/ui-kit-todo.umd.js",
+  "module": "./dist/ui-kit-todo.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-ts-lib.es.js",
-      "require": "./dist/react-ts-lib.umd.js"
+      "import": "./dist/ui-kit-todo.es.js",
+      "require": "./dist/ui-kit-todo.umd.js"
     }
   }
 }
