@@ -9,6 +9,7 @@
   "module": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "scripts": {
+    "pub": "tsc -b && vite build && npm version patch && npm publish",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "storybook": "storybook dev -p 6006",
