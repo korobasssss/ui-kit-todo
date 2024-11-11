@@ -1,0 +1,9 @@
+export { default as CloseIcon } from './close.svg';
+export { default as LineIcon } from './line.svg';
+export { default as LoaderStepOneIcon } from './loader_step1.svg';
+export { default as LoaderStepTwoIcon } from './loader_step2.svg';
+export { default as LoaderStepThreeIcon } from './loader_step3.svg';
+export { default as LoaderStepFourIcon } from './loader_step4.svg';
+export { default as SelectArrowIcon } from './select_arrow.svg';
+export { default as FilterIcon } from './filter.svg';
+export { default as SearchIcon } from './search.svg';
