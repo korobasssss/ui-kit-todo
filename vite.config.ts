@@ -11,6 +11,7 @@ export default defineConfig({
     exclude: ['**/*.stories.tsx']
   })],
   build: {
+    outDir: "dist",
     lib: {
       entry: 'src/main.ts',
       formats: ['es'],
@@ -21,9 +22,10 @@ export default defineConfig({
         globals: {
           'react': 'React',
           'react-dom': 'ReactDOM',
+          'css-loader': 'css-loader'
         },
         entryFileNames: '[name].js',
-        assetFileNames: 'assets/[name][extname]',
+        assetFileNames: '[name][extname]',
       },
     },
   },
