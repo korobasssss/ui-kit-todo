@@ -1,7 +1,7 @@
 import { StoryFn, Meta } from '@storybook/react';
 import { IInput, Input } from './Input';
 
-import { SearchIcon } from '../../shared/assets';
+import { SearchIcon } from '../../assets';
 
 export default {
     title: 'Input',

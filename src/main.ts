@@ -35,7 +35,5 @@ export type {ISelect} from './lib/Select'
 export {Textarea} from './lib/Textarea'
 export type {ITextarea} from './lib/Textarea'
 
-export type { IClassName } from './shared/interfaces'
-export type { ISelectOptions } from './shared/interfaces'
-
-export * from './shared/assets'
+export type { IClassName } from './interfaces/IClassName'
+export type { ISelectOptions } from './interfaces/ISelectOptions'

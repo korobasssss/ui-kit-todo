@@ -1,5 +1,5 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { LoaderStepOneIcon, LoaderStepTwoIcon, LoaderStepThreeIcon, LoaderStepFourIcon } from '../../shared/assets';
+import { LoaderStepOneIcon, LoaderStepTwoIcon, LoaderStepThreeIcon, LoaderStepFourIcon } from '../../assets';
 import { Icon } from '../Icon';
 import styles from './styles.module.scss';
 export const Loader = () => {

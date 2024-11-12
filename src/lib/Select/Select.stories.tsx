@@ -1,7 +1,7 @@
 import { StoryFn, Meta } from '@storybook/react';
 import { ISelect, Select } from './Select';
 import { useState } from 'react';
-import { ISelectOptions } from '../../shared/interfaces';
+import { ISelectOptions } from '../../interfaces';
 import '../../index.css'
 
 export default {

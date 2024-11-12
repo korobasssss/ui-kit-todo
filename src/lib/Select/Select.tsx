@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useState } from "react"
 import cx from 'classnames'
-import { IClassName, ISelectOptions } from "../../shared/interfaces"
+import { IClassName, ISelectOptions } from "../../interfaces"
 import { Input} from "../Input"
 import { NoData} from "../NoData"
 import { ScrollWrapper} from "../ScrollWrapper"
 import styles from './styles.module.scss'
-import {SelectArrowIcon} from '../../shared/assets'
+import {SelectArrowIcon} from '../../assets'
 
 export interface ISelect<V extends string | number, K extends string>
 extends IClassName {

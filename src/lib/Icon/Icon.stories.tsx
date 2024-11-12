@@ -1,6 +1,6 @@
 import { StoryFn, Meta } from '@storybook/react';
 import { Icon, IICon } from './Icon';
-import { FilterIcon } from '../../shared/assets';
+import { FilterIcon } from '../../assets';
 
 export default {
     title: 'Icon',

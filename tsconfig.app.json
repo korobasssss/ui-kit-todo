@@ -22,5 +22,12 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ],
+  "outDir": "dist",
+  "exclude": [
+    "node_modules",
+    "./src/**/*.stories.tsx"
+  ]
 }

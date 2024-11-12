@@ -1,6 +1,6 @@
 import { FC, LinkHTMLAttributes, ReactNode, useMemo } from "react"
 import cx from 'classnames'
-import { IClassName } from "../../shared/interfaces"
+import { IClassName } from "../../interfaces"
 
 import styles from './styles.module.scss'
 

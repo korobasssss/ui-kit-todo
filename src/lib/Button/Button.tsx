@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, FC, ReactNode, useMemo } from 'react'
 import cx from 'classnames';
 import styles from './styles.module.scss'
-import { IClassName } from '../../shared/interfaces';
+import { IClassName } from '../../interfaces';
 
 export interface IButton
     extends ButtonHTMLAttributes<HTMLButtonElement>, IClassName {

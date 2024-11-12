@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
 import styles from './styles.module.scss'
-import { IClassName } from "../../shared/interfaces";
+import { IClassName } from "../../interfaces";
 import cx from 'classnames'
 
 export interface IScrollWrapper

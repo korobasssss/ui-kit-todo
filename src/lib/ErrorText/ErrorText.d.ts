@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { IClassName } from "../../shared/interfaces";
+import { IClassName } from "../../interfaces";
 export interface IErrorText extends IClassName {
     message: string;
 }

@@ -5,7 +5,7 @@ import { Input } from "../Input";
 import { NoData } from "../NoData";
 import { ScrollWrapper } from "../ScrollWrapper";
 import styles from './styles.module.scss';
-import { SelectArrowIcon } from '../../shared/assets';
+import { SelectArrowIcon } from '../../assets';
 export const Select = ({ classNames, label, error, isRequired, placeholder, options, setSelected, value }) => {
     const [isFocused, setIsFocused] = useState(false);
     const [inputValue, setInputValue] = useState('');
