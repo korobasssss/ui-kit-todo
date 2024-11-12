@@ -11,3 +11,4 @@ export { Popup } from './lib/Popup';
 export { ScrollWrapper } from './lib/ScrollWrapper';
 export { Select } from './lib/Select';
 export { Textarea } from './lib/Textarea';
+export * from './shared/assets';

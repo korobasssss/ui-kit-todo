@@ -24,3 +24,4 @@ export { Textarea } from './lib/Textarea';
 export type { ITextarea } from './lib/Textarea';
 export type { IClassName } from './shared/interfaces';
 export type { ISelectOptions } from './shared/interfaces';
+export * from './shared/assets';
