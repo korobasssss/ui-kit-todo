@@ -1,12 +1,12 @@
 import { FC, InputHTMLAttributes, useMemo } from "react"
 import cx from 'classnames'
-import { IClassName } from "../interfaces"
 import styles from './style.module.scss'
 import { LabelWrapper } from "../LabelWrapper"
 import { Icon } from "../Icon"
 
 export interface IInput 
-extends InputHTMLAttributes<HTMLInputElement>, IClassName {
+extends InputHTMLAttributes<HTMLInputElement> {
+    classNames?: string
     label?: string
     error?: string
     isRequired?: boolean

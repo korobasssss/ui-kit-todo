@@ -1,6 +1,6 @@
 import { FC, ReactNode } from "react";
-import { IClassName } from "../interfaces";
-export interface IOverlayPopup extends IClassName {
+export interface IOverlayPopup {
+    classNames?: string;
     handlerCLose?: () => void;
     children: ReactNode;
     isOpen?: boolean;

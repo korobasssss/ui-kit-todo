@@ -1,10 +1,9 @@
 import { FC } from "react"
 import cx from 'classnames'
 import styles from './styles.module.scss'
-import { IClassName } from "../interfaces"
 
-export interface IErrorText
-extends IClassName {
+export interface IErrorText {
+    classNames?: string
     message: string
 }
 

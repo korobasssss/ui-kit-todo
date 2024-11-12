@@ -1,14 +1,18 @@
 import { useEffect, useMemo, useState } from "react"
 import cx from 'classnames'
-import { IClassName, ISelectOptions } from "../interfaces"
 import { Input} from "../Input"
 import { NoData} from "../NoData"
 import { ScrollWrapper} from "../ScrollWrapper"
 import styles from './styles.module.scss'
 import {SelectArrowIcon} from '../../assets'
 
-export interface ISelect<V extends string | number, K extends string>
-extends IClassName {
+export interface ISelectOptions<V extends string | number, K extends string> {
+    value: V
+    label: K
+}
+
+export interface ISelect<V extends string | number, K extends string> {
+    classNames?: string
     label?: string
     value: ISelectOptions<V, K> | null
     placeholder?: string

@@ -1,11 +1,11 @@
 import { FC, LinkHTMLAttributes, ReactNode, useMemo } from "react"
 import cx from 'classnames'
-import { IClassName } from "../interfaces"
 
 import styles from './styles.module.scss'
 
 export interface ILink
-extends LinkHTMLAttributes<HTMLLinkElement>, IClassName {
+extends LinkHTMLAttributes<HTMLLinkElement> {
+    classNames?: string
     url: string
     isSelected: boolean
     children: ReactNode

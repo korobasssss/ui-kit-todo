@@ -1,5 +1,9 @@
-import { IClassName, ISelectOptions } from "../interfaces";
-export interface ISelect<V extends string | number, K extends string> extends IClassName {
+export interface ISelectOptions<V extends string | number, K extends string> {
+    value: V;
+    label: K;
+}
+export interface ISelect<V extends string | number, K extends string> {
+    classNames?: string;
     label?: string;
     value: ISelectOptions<V, K> | null;
     placeholder?: string;

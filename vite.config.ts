@@ -23,8 +23,7 @@ export default defineConfig({
       output: {
         globals: {
           'react': 'React',
-          'react-dom': 'ReactDOM',
-          'css-loader': 'css-loader'
+          'react-dom': 'ReactDOM'
         },
         entryFileNames: '[name].js',
         assetFileNames: '[name][extname]',

@@ -1,12 +1,12 @@
 import { ButtonHTMLAttributes, FC } from "react"
-import { IClassName } from "../interfaces"
 import cx from 'classnames'
 
 import styles from './styles.module.scss'
 import { Icon } from "../Icon"
 
 export interface IButtonIcon 
-extends ButtonHTMLAttributes<HTMLButtonElement>, IClassName {
+extends ButtonHTMLAttributes<HTMLButtonElement> {
+    classNames?: string
     icon: string
     alt: string
 }

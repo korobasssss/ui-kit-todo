@@ -1,12 +1,12 @@
 import { FC, TextareaHTMLAttributes, useMemo } from "react"
 import cx from 'classnames'
-import { IClassName } from "../interfaces"
 import styles from './styles.module.scss'
 import { ScrollWrapper } from "../ScrollWrapper"
 import { LabelWrapper } from "../LabelWrapper"
 
 export interface ITextarea
-extends TextareaHTMLAttributes<HTMLTextAreaElement>, IClassName {
+extends TextareaHTMLAttributes<HTMLTextAreaElement> {
+    classnames?: string
     label?: string
     error?: string
     isRequired?: boolean

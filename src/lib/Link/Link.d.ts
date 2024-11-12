@@ -1,6 +1,6 @@
 import { FC, LinkHTMLAttributes, ReactNode } from "react";
-import { IClassName } from "../interfaces";
-export interface ILink extends LinkHTMLAttributes<HTMLLinkElement>, IClassName {
+export interface ILink extends LinkHTMLAttributes<HTMLLinkElement> {
+    classNames?: string;
     url: string;
     isSelected: boolean;
     children: ReactNode;

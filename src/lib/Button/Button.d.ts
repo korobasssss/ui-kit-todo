@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes, FC, ReactNode } from 'react';
-import { IClassName } from '../interfaces';
-export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement>, IClassName {
+export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement> {
+    classNames?: string;
     children: ReactNode;
     theme: 'primary' | 'secondary' | 'none';
 }

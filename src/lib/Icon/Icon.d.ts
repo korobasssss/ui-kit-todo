@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { IClassName } from "../interfaces";
-export interface IICon extends IClassName {
+export interface IICon {
+    classNames?: string;
     icon: string;
     alt?: string;
 }

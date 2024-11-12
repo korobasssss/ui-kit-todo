@@ -1,6 +1,6 @@
 import { ButtonHTMLAttributes, FC } from "react";
-import { IClassName } from "../interfaces";
-export interface IButtonIcon extends ButtonHTMLAttributes<HTMLButtonElement>, IClassName {
+export interface IButtonIcon extends ButtonHTMLAttributes<HTMLButtonElement> {
+    classNames?: string;
     icon: string;
     alt: string;
 }

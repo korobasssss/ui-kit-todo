@@ -1,6 +1,6 @@
 import { FC, TextareaHTMLAttributes } from "react";
-import { IClassName } from "../interfaces";
-export interface ITextarea extends TextareaHTMLAttributes<HTMLTextAreaElement>, IClassName {
+export interface ITextarea extends TextareaHTMLAttributes<HTMLTextAreaElement> {
+    classnames?: string;
     label?: string;
     error?: string;
     isRequired?: boolean;

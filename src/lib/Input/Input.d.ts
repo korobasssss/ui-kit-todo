@@ -1,6 +1,6 @@
 import { FC, InputHTMLAttributes } from "react";
-import { IClassName } from "../interfaces";
-export interface IInput extends InputHTMLAttributes<HTMLInputElement>, IClassName {
+export interface IInput extends InputHTMLAttributes<HTMLInputElement> {
+    classNames?: string;
     label?: string;
     error?: string;
     isRequired?: boolean;
