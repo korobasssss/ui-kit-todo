@@ -5,10 +5,10 @@
   "files": [
     "dist"
   ],
-  "exports": [
-    "./dist/main.js",
-    "./dist/style.css"
-  ],
+  "exports": {
+    "./main": "./dist/main.js",
+    "./style": "./dist/style.css"
+  },
   "module": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "scripts": {
