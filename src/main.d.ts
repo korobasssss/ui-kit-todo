@@ -22,3 +22,5 @@ export { Select } from './lib/Select';
 export type { ISelect } from './lib/Select';
 export { Textarea } from './lib/Textarea';
 export type { ITextarea } from './lib/Textarea';
+export type { IClassName } from './shared/interfaces';
+export type { ISelectOptions } from './shared/interfaces';
