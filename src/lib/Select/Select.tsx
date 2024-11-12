@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react"
 import cx from 'classnames'
-import { IClassName, ISelectOptions } from "../../interfaces"
+import { IClassName, ISelectOptions } from "../interfaces"
 import { Input} from "../Input"
 import { NoData} from "../NoData"
 import { ScrollWrapper} from "../ScrollWrapper"

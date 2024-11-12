@@ -1,7 +1,7 @@
 import { FC, ReactNode, useMemo } from "react"
 import styles from './styles.module.scss'
 import cx from 'classnames'
-import { IClassName } from "../../interfaces"
+import { IClassName } from "../interfaces"
 
 export interface IOverlayPopup
 extends IClassName {

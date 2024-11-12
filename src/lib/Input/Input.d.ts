@@ -1,5 +1,5 @@
 import { FC, InputHTMLAttributes } from "react";
-import { IClassName } from "../../interfaces";
+import { IClassName } from "../interfaces";
 export interface IInput extends InputHTMLAttributes<HTMLInputElement>, IClassName {
     label?: string;
     error?: string;

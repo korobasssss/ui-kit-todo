@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [react(), svgr(), dts({
     insertTypesEntry: true,
     outDir: 'dist',
-    include: ['src/interfaces/**/*', 'src/**/*'],
+    include: ['src/**/*'],
     exclude: ['**/*.stories.tsx']
   })],
   build: {

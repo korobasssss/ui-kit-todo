@@ -1,6 +1,6 @@
 import { FC, TextareaHTMLAttributes, useMemo } from "react"
 import cx from 'classnames'
-import { IClassName } from "../../interfaces"
+import { IClassName } from "../interfaces"
 import styles from './styles.module.scss'
 import { ScrollWrapper } from "../ScrollWrapper"
 import { LabelWrapper } from "../LabelWrapper"
